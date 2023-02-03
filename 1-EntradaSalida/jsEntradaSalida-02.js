@@ -4,16 +4,15 @@ y luego mostrarlo por 'alert' al presionar el botón  'mostrar'*/
 function mostrar()
 
 {
-	// alert("ok");
-
-	// var edad;
+	
 	let nombre;
 
-	nombre = prompt("ingrese un nombre")
-	
-    nombre = "mario"; // asignacion de string. 
+	nombre = prompt("ingrese un dato")
 
+	nombre = document.getElementById("prompt").value;
+	
     // mostrar por alert
-    alert(nombre);
+   
+	alert(nombre);
 }
 
